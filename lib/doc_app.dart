@@ -24,7 +24,7 @@ class DocApp extends StatelessWidget {
       //   onGenerateRoute: appRouter.generateRoute,
     //  ),
       ScreenUtilInit(
-        designSize: const Size(375, 812),
+        designSize: const Size(375, 810),//812
         minTextAdapt: true,
         builder: (context, child) {
           return MaterialApp(
