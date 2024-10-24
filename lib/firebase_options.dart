@@ -65,4 +65,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'advanced-project-92e63.appspot.com',
     iosBundleId: 'com.example.advancedProject',
   );
+
 }
