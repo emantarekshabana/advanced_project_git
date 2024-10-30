@@ -7,6 +7,7 @@ import 'doc_app.dart';
 
 void main() async{
   setupGetIt();
+  
     // To fix texts being hidden bug in flutter_screenutil in release mode.
   await ScreenUtil.ensureScreenSize();
   runApp(DocApp(appRouter : AppRouter(),)); //act as client app
